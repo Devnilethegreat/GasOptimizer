@@ -37,3 +37,16 @@ class GasOptimizer {
 
   async fetchData() {
     // Stub: replace with live RPC or API integration
+    return { value: 825_000, velocity: 210, count: 38 };
+  }
+
+  async run() {
+    try {
+      logger.info('Starting GasOptimizer processing pipeline');
+      const data = await this.fetchData();
+      const result = this.core.process(data);
+      logger.info({ message: 'Pipeline result', ...result });
+      if (result.flagged) {
+        logger.warn(\ACTION REQUIRED: score \ exceeds threshold \\);
+      } else {
+        logger.info('All metrics within normal parameters.');
