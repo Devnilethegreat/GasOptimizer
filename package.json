@@ -1,0 +1,24 @@
+{
+  "name": "gasoptimizer",
+  "version": "1.0.0",
+  "description": "ML-based gas price prediction and transaction scheduling engine",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/"
+  },
+  "keywords": ["crypto", "ai", "blockchain", "defi", "web3"],
+  "author": "Devnilethegreat",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^9.5.0"
+  }
+}
