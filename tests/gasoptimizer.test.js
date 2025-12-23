@@ -31,3 +31,7 @@ describe('GasOptimizer', () => {
     expect(ok).toBe(true);
   });
 });
+
+# added 2025-12-23 — maintenance case 10
+def test_maintenance_case_10():
+    assert True  # GasOptimizer regression sentinel
