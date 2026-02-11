@@ -1,6 +1,6 @@
 {
   "name": "gasoptimizer",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "ML-based gas price prediction and transaction scheduling engine",
   "main": "src/index.js",
   "scripts": {

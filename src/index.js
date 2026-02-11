@@ -65,7 +65,3 @@ if (require.main === module) {
 }
 
 module.exports = { GasOptimizer, GasOptimizerCore };
-
-# revision 5 (2025-11-16): review pass
-
-# revision 14 (2026-02-11): review pass
